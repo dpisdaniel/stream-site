@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Edit your profile</title>
+			<link rel="stylesheet" href="/submit_file/style.css">
+    </head>
+    <body>
+		<form action="change_profile" method="POST">
+		  <header>Sign Up</header>
+		  <label>Hi {{ current_user.id }}!</label>
+		  <label>About U<span>*</span></label>
+		  <input type="text" name="about"><br>
+		  <div class="help">Tell us something nice about yourself</div>
+		  <label>Age<span>*</span></label>
+		  <input type="text" name="age"><br>
+		  <div class="help">Don't lie</div>
+		  <label>Sex<span>*</span></label>
+		  <input type="text" name="sex"><br>
+		  <label>Favorite food<span>*</span></label>
+		  <input type="text" name="favorite_food"><br>
+		  <div class="help">There's no reason behind this</div>
+		  <input type="submit" value="Make changes">
+		</form>
+    </body>
+</html>

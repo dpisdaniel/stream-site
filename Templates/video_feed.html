@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>{{ current_user.id }}'s Stream</title>
+	<link rel="stylesheet" href="/submit_file/user_page_style.css">
+  </head>
+  <body>
+    <h1>{{ current_user.id }}'s Stream</h1>
+	<div class="Player">
+	<img src={{ video_url }}>
+	</div>
+	<div class="User-Info">{{ current_user.id }}'s Info:
+	<p> About me: {{ about }} </p>
+	<p> Age: {{ age }} </p>
+	<p> Sex: {{ sex }} </p>
+	<p> Favorite food: {{ favorite_food }} </p>
+	</div>
+  </body>
+</html>

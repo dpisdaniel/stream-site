@@ -87,3 +87,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+#databases
+*.db
+
+#Pycharm project folder
+/.idea
